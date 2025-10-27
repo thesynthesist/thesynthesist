@@ -1,10 +1,14 @@
 ---
-layout: default
-title: Home
+layout: home
+title: The Synthesist
 ---
 
-<section>
-  <h1>Welcome to My Sound World!</h1>
-  <p>I’m <strong>Can Kutlu</strong>, a composer, producer, and sound designer blending cinematic and electronic soundscapes.</p>
+# Welcome to my music world
 
-  <p>Explore my <a href="/music">music</a>, see my <a href="/projects">projects</a>, or get in touch for collaborations.</p>
+I’m a composer, producer, and sound designer exploring electronic music, immersive audio, and experimental sound.  
+
+## Links
+
+- [Music on SoundCloud](https://on.soundcloud.com/9Ur0JG3IpXip4MPv0g)
+- [About]({{ '/about' | relative_url }})
+- [Contact]({{ '/contact' | relative_url }})
