@@ -1,42 +1,48 @@
 body {
-  background-color: #0d0d0d;
+  background-color: #0c0c0c;
   color: #f0f0f0;
   font-family: 'Inter', sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
   background-color: #111;
-  padding: 1rem 0;
-  border-bottom: 1px solid #222;
+  padding: 1em;
+  text-align: center;
 }
 
-nav a {
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+nav ul li a {
   color: #f0f0f0;
   text-decoration: none;
-  margin: 0 1.5rem;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  transition: color 0.2s;
 }
 
-nav a:hover {
-  color: #1db954;
+nav ul li a:hover {
+  color: #1db954; /* Spotify green accent */
 }
 
-main.content {
+main {
   max-width: 800px;
-  margin: 4rem auto;
-  padding: 0 1.5rem;
+  margin: 4em auto;
+  padding: 1em;
 }
 
 footer {
   text-align: center;
-  padding: 2rem 0;
-  border-top: 1px solid #222;
-  color: #777;
+  padding: 2em;
   background-color: #111;
+  font-size: 0.9em;
+  color: #999;
 }
