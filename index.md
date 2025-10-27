@@ -14,6 +14,3 @@ title: Home
     Your browser does not support the audio tag.
   </audio>
 </section>
-<audio controls>
-  <source src="/assets/audio/featured-track.mp3" type="audio/mpeg">
-</audio>
