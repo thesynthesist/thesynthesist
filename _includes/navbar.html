@@ -1,0 +1,7 @@
+<header>
+  <nav>
+    {% for item in site.nav_links %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

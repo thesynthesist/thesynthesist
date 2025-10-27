@@ -1,0 +1,21 @@
+title: Can Kutlu | Composer & Sound Designer
+email: your@email.com
+description: Music portfolio of Can Kutlu — composer, producer, sound designer.
+baseurl: ""
+url: "https://yourusername.github.io"
+
+nav_links:
+  - title: Home
+    url: /
+  - title: Music
+    url: /music/
+  - title: Projects
+    url: /projects/
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+collections:
+  projects:
+    output: true
